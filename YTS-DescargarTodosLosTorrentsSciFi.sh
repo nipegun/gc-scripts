@@ -98,8 +98,8 @@ echo ""
      echo ""
      echo "El paquete zip no está instalado. Iniciando su instalación..."
      echo ""
-     apt-get -y update
-     apt-get -y install zip
+     sudo apt-get -y update
+     sudo apt-get -y install zip
      echo ""
    fi
 
